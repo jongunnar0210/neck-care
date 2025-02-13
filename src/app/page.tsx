@@ -1,10 +1,19 @@
-import styles from "./page.module.scss";
+import styles from "./styles/page.module.scss";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Card from "./components/Card/Card";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <header className={styles.header}>
+        <label>
+          <em>Neck</em>Care
+        </label>
+        <nav>
+          <button>One</button>
+          <button>two</button>
+        </nav>
+      </header>
       <main className={styles.main}>
         <h2>Hey welcome to NeckCare</h2>
         <h2>

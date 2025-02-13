@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -12,6 +13,9 @@ module.exports = {
         hostname: "img.freepik.com",
       },
     ],
+  },
+  sassOptions: {
+    includePaths: [path.join(process.cwd(), "styles")],
   },
 };
 

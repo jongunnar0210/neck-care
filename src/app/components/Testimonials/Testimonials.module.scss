@@ -1,7 +1,9 @@
+@import "../../styles/variables.scss";
+
 .testimonials {
   display: flex;
-  column-gap: 40px;
-  max-width: 1000px;
+  column-gap: $space-large;
+  max-width: $space-half-section;
 
   & > * {
     flex: 1;
@@ -9,18 +11,18 @@
 }
 
 .testimonial {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgb(236, 233, 233);
+  margin-bottom: $space-medium;
+  padding-bottom: $space-medium;
+  border-bottom: $space-border-width solid $color-separator;
 }
 
 .text {
-  margin-bottom: 30px;
+  margin-bottom: $space-large;
 }
 
 .image {
-  border-radius: 50px;
-  margin-right: 10px;
+  border-radius: $space-xlarge;
+  margin-right: $space-small;
 }
 
 .author {
@@ -31,5 +33,9 @@
 .authorText {
   display: flex;
   flex-direction: column;
-  row-gap: 3px;
+  row-gap: $space-tiny;
+}
+
+.company {
+  font-size: $space-small;
 }

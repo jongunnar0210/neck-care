@@ -30,7 +30,9 @@ const Testimonials = async () => {
             />
             <div className={styles.authorText}>
               <div>{testimonial.author.name}</div>
-              <div>{testimonial.author.company.toLocaleUpperCase()}</div>
+              <div className={styles.company}>
+                <em>{testimonial.author.company.toLocaleUpperCase()}</em>
+              </div>
             </div>
           </div>
         </div>
@@ -40,7 +42,7 @@ const Testimonials = async () => {
 
   return (
     <div className={styles.testimonials}>
-      <h2>Let&apos;s see what our clients say</h2>
+      <h1>Let&apos;s see what our clients say</h1>
       <div>{mapData()}</div>
     </div>
   );

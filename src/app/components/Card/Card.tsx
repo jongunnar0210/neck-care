@@ -9,7 +9,9 @@ interface Props {
 const Card = ({ text, subText, availableSince }: Props) => {
   return (
     <div>
-      <h3>{text}</h3>
+      <h3>
+        <em>{text}</em>
+      </h3>
       <h4>{subText}</h4>
       <h5>Available since {availableSince}</h5>
     </div>
