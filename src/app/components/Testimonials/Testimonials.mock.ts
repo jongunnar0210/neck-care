@@ -2,12 +2,12 @@ import { Testimonial } from "./types";
 
 export const testimonialMock: Testimonial[] = [
   {
-    text: `Our therapists are using the data provided by NeckCareTM
+    text: `Our therapists are using the data provided by NeckCare\u2122
               to develop more individualized plans of care for their
-              patients with neck pain. Patients love that the NeckCare TM
+              patients with neck pain. Patients love that the NeckCare\u2122
               assessment provides them with unique data and visual
               figures to help them understand their performance. I think
-              that NeckCareTM has the potential to improve the
+              that NeckCare\u2122 has the potential to improve the
               standardization of clinical practise and to facilitate more
               individualized care, which are considered to be key factors
               in improving outcomes.`,
@@ -19,7 +19,7 @@ export const testimonialMock: Testimonial[] = [
     },
   },
   {
-    text: `NeckCare has enhanced out ability to assess the
+    text: `NeckCare\u2122 has enhanced out ability to assess the
               proprioceptive system in the neck in a more
               comprehensive manner. It is the future of head and neck
               care, both for optimal health and condition management.

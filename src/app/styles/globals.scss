@@ -1,14 +1,3 @@
-// :root {
-//   --background: #ffffff;
-//   --foreground: #171717;
-// }
-
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --background: #0a0a0a;
-//     --foreground: #ededed;
-//   }
-// }
 @import "./variables.scss";
 
 html,
@@ -18,9 +7,7 @@ body {
 }
 
 body {
-  // color: var(--foreground);
-  // background: var(--background);
-  color: $color-foreground;
+  color: $primary-color;
   background: $color-background;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,10 +35,12 @@ h2 {
 
 h3 {
   font-size: $space-large;
+  margin-bottom: $space-medium;
 }
 
 h4 {
   font-size: $space-medium;
+  margin-bottom: $space-tiny;
 }
 
 h5 {
@@ -63,8 +52,7 @@ em {
   font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+p {
+  font-weight: 600;
+  line-height: 1.6;
 }

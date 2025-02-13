@@ -19,7 +19,7 @@ const Testimonials = async () => {
     return data.map((testimonial: Testimonial, index: number) => {
       return (
         <div key={index} className={styles.testimonial}>
-          <div className={styles.text}>{`"${testimonial.text}"`}</div>
+          <p className={styles.text}>{`"${testimonial.text}"`}</p>
           <div className={styles.author}>
             <Image
               src={testimonial.author.image}

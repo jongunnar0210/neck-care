@@ -1,6 +1,8 @@
 import styles from "./styles/page.module.scss";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Card from "./components/Card/Card";
+import ContactButton from "./components/common/ContactButton/ContactButton";
+import HamburgerButton from "./components/common/HamburgerButton/HamburgerButton";
 
 export default function Home() {
   return (
@@ -9,16 +11,18 @@ export default function Home() {
         <label>
           <em>Neck</em>Care
         </label>
-        <nav>
-          <button>One</button>
-          <button>two</button>
+        <nav className={styles.nav}>
+          <ContactButton />
+          <HamburgerButton />
         </nav>
       </header>
       <main className={styles.main}>
-        <h2>Hey welcome to NeckCare</h2>
-        <h2>
-          We make <em>necks</em> great
-        </h2>
+        <div>
+          <h2>Hey welcome to NeckCare</h2>
+          <h2>
+            We make <em>necks</em> great
+          </h2>
+        </div>
 
         <div className={styles.cards}>
           <Card
@@ -32,7 +36,7 @@ export default function Home() {
             availableSince={2023}
           />
           <Card
-            text="Butterfly Text"
+            text="Butterfly Test"
             subText="Based on over 20+ years research"
             availableSince={2024}
           />

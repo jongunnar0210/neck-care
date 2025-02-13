@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+
+.button {
+  display: flex;
+  padding: $space-xsmall $space-small;
+  border: 1px solid $primary-color;
+  align-items: center;
+  background: $color-background;
+  font-size: x-small;
+  color: $primary-color;
+  gap: $space-xsmall;
+}
+
+.nav {
+  border-radius: 50px;
+}

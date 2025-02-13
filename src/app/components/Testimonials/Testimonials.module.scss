@@ -11,8 +11,8 @@
 }
 
 .testimonial {
-  margin-bottom: $space-medium;
-  padding-bottom: $space-medium;
+  margin-bottom: $space-large;
+  padding-bottom: $space-large;
   border-bottom: $space-border-width solid $color-separator;
 }
 
@@ -33,7 +33,7 @@
 .authorText {
   display: flex;
   flex-direction: column;
-  row-gap: $space-tiny;
+  row-gap: $space-xsmall;
 }
 
 .company {
