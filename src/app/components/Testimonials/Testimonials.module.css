@@ -1,0 +1,35 @@
+.testimonials {
+  display: flex;
+  column-gap: 40px;
+  max-width: 1000px;
+
+  & > * {
+    flex: 1;
+  }
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(236, 233, 233);
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.image {
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.authorText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}

@@ -1,17 +1,49 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-import Section from "./components/Section";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Card from "./components/Card/Card";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Link href="/users">Users</Link>
+        {/* <Link href="/users">Users</Link> */}
 
-        <Section />
+        <h2>Hey welcome to NeckCare</h2>
+        <h2>
+          We make <em>necks</em> great
+        </h2>
 
-        <Image
+        <div className={styles.foo}>
+          <Card
+            text="Range of Motion"
+            subText="No goniometer"
+            availableSince={2022}
+          />
+          <Card
+            text="Joint Position Error"
+            subText="Goodbye laser"
+            availableSince={2023}
+          />
+          <Card
+            text="Butterfly Text"
+            subText="Based on over 20+ years research"
+            availableSince={2024}
+          />
+        </div>
+
+        <Testimonials />
+
+        {/* <Image
+          // src="https://thedrewblog.com/wp-content/uploads/2016/09/drew_round.png" // Dynamic URL from API
+          src="https://img.freepik.com/free-photo/portrait-outdoor-businessman_23-2148763884.jpg?t=st=1739406095~exp=1739409695~hmac=8881f558b38dd834ef52fc723d106a1b7c4f517bb06a580b4b25137bc213d0ec&w=1800" // Dynamic URL from API
+          alt="Some guy"
+          width={300}
+          height={300}
+        /> */}
+
+        {/* <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js logo"
@@ -50,9 +82,9 @@ export default function Home() {
           >
             Read our docs
           </a>
-        </div>
+        </div> */}
       </main>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
@@ -95,7 +127,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
