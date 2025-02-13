@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Testimonials.module.css";
+import styles from "./Testimonials.module.scss";
 import Image from "next/image";
 import { Testimonial } from "./types";
 import { testimonialMock } from "./Testimonials.mock";
