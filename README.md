@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-This is a typical NextJS web application. It uses the App Router as opposed to the older Page Router. It's styled with SCSS.
+This is a typical NextJS web application. It uses Typescript and the App Router as opposed to the older Page Router. It's styled with SCSS.
 
 First, run the development server:
 
