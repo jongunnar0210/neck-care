@@ -6,6 +6,8 @@ interface Props {
   availableSince: number;
 }
 
+// TODO: Rename this component to something more descriptive after talking to
+// NeckCare about what they want to call it.
 const Card = ({ text, subText, availableSince }: Props) => {
   return (
     <div>

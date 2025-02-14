@@ -8,34 +8,34 @@
   & > * {
     flex: 1;
   }
-}
 
-.testimonial {
-  margin-bottom: $space-large;
-  padding-bottom: $space-large;
-  border-bottom: $space-border-width solid $color-separator;
-}
+  .testimonial {
+    margin-bottom: $space-large;
+    padding-bottom: $space-large;
+    border-bottom: $space-border-width solid $color-separator;
 
-.text {
-  margin-bottom: $space-large;
-}
+    .text {
+      margin-bottom: $space-large;
+    }
 
-.image {
-  border-radius: $space-xlarge;
-  margin-right: $space-small;
-}
+    .image {
+      border-radius: $space-xlarge;
+      margin-right: $space-small;
+    }
 
-.author {
-  display: flex;
-  align-items: center;
-}
+    .author {
+      display: flex;
+      align-items: center;
 
-.authorText {
-  display: flex;
-  flex-direction: column;
-  row-gap: $space-xsmall;
-}
+      .authorText {
+        display: flex;
+        flex-direction: column;
+        row-gap: $space-xsmall;
+      }
 
-.company {
-  font-size: $space-small;
+      .company {
+        font-size: $space-small;
+      }
+    }
+  }
 }

@@ -3,6 +3,8 @@ import React from "react";
 import Button from "../Button/Button";
 import Image from "next/image";
 
+// A typical hamburger button.
+// There was no requirement to let it do anything so for now it's just a styled button.
 const HamburgerButton = () => {
   const IMAGE_SIZE = 24;
 
@@ -18,7 +20,6 @@ const HamburgerButton = () => {
         alt="hamburger"
         width={IMAGE_SIZE}
         height={IMAGE_SIZE}
-        //   className={styles.image}
       />
     </Button>
   );

@@ -7,39 +7,39 @@
   max-width: 1200px;
   padding: $space-xlarge;
   margin: 0 auto;
-}
 
-.main {
-  display: flex;
-  flex-direction: column;
-  gap: $space-xxlarge;
-  margin-top: $space-xxlarge;
-}
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: $space-xxlarge;
+    margin-top: $space-xxlarge;
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  font-size: $space-medium;
-  font-weight: 600;
-}
+    .cards {
+      display: flex;
+      column-gap: $space-large;
+    }
+  }
 
-.nav {
-  display: flex;
-  gap: $space-small;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    font-size: $space-medium;
+    font-weight: 600;
+
+    .nav {
+      display: flex;
+      gap: $space-small;
+    }
+  }
 }
 
 @media (max-width: 600px) {
   .page {
     padding: 32px;
     padding-bottom: 80px;
-  }
 
-  .main {
-    align-items: center;
+    .main {
+      align-items: center;
+    }
   }
-}
-
-.cards {
-  display: flex;
-  column-gap: $space-large;
 }

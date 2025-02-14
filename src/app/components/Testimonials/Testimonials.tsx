@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Testimonial } from "./types";
 import { testimonialMock } from "./Testimonials.mock";
 
+// A list of testimonials fetched from the backend.
 const Testimonials = async () => {
   const IMAGE_SIZE = 50;
 

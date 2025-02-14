@@ -4,9 +4,12 @@ import Card from "./components/Card/Card";
 import ContactButton from "./components/common/ContactButton/ContactButton";
 import HamburgerButton from "./components/common/HamburgerButton/HamburgerButton";
 
+// Main page of this web application, which is a quick demonstration of what a NeckCare
+// web page could look like:
 export default function Home() {
   return (
     <div className={styles.page}>
+      {/* Header */}
       <header className={styles.header}>
         <label>
           <em>Neck</em>Care
@@ -16,6 +19,8 @@ export default function Home() {
           <HamburgerButton />
         </nav>
       </header>
+
+      {/* Main section */}
       <main className={styles.main}>
         <div>
           <h2>Hey welcome to NeckCare</h2>
@@ -24,6 +29,8 @@ export default function Home() {
           </h2>
         </div>
 
+        {/* These are card looking components with a bit of description of
+        the company. I needed more info about them to perhaps give them better names */}
         <div className={styles.cards}>
           <Card
             text="Range of Motion"
@@ -42,6 +49,7 @@ export default function Home() {
           />
         </div>
 
+        {/* Testimonials from clients, fetched from the backend */}
         <Testimonials />
       </main>
     </div>

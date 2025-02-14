@@ -10,6 +10,7 @@ interface Props {
   onClick?: () => void;
 }
 
+// The generic button component for this application.
 const Button = ({ children, type, onClick }: Props) => {
   const myStyles = `${styles.button} ${type === "nav" ? styles.nav : ""}`;
 

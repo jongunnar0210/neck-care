@@ -3,6 +3,8 @@ import React from "react";
 import Button from "../Button/Button";
 import Image from "next/image";
 
+// A button with both a text and an image.
+// There was no requirement to let it do anything so for now it's just a styled button.
 const ContactButton = () => {
   const IMAGE_SIZE = 20;
 
@@ -19,7 +21,6 @@ const ContactButton = () => {
         alt="arrow-right"
         width={IMAGE_SIZE}
         height={IMAGE_SIZE}
-        //   className={styles.image}
       />
     </Button>
   );
