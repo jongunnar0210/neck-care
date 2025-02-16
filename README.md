@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 We might want to localize this app so that more than just English is supported, with Locize (https://locize.com/?lng=en) or something.
 I would lean towards keeping it simple and only use English to save ourselves headaches. Another thing is that the buttons don't do anything
 right now so we could add that. We could add a dark theme. We could add both loading and hover animations. We might want to create a figma design
-for both desktop and mobile (even tablets) - and then change the styling of the code accordigly. And we could add sub pages.
+for both desktop and mobile (even tablets) - and then change the styling of the code accordingly. And we could add sub pages.
 
 ## Author
 
